@@ -1,4 +1,4 @@
 # Rock-Paper-Scissors-By-Peter
 My project for this simple console game "Rock, Paper, Scissors".
-https://replit.com/@pbekriev/Rock-Paper-Scissors-By-Peter#main.py![pngtree-game-button-switch-start-game-icon-png-image_2137850]
-![Image](https://user-images.githubusercontent.com/114181931/192119841-7166b63f-1d3d-4d39-90a0-03c015e347b8.jpg)
+You can play the game directly in your Web browser here:
+[<img alt="Play Button" src="![pngfind com-start-button-png-3164705](https://user-images.githubusercontent.com/114181931/192120166-13988c87-8d68-4e22-b4b8-20f184ad13c8.png)" />](https://replit.com/@pbekriev/Rock-Paper-Scissors-By-Peter#main.py)
