@@ -19,6 +19,7 @@ number_of_games = input("Choose how many games to play.\n"
                         "If you choose 0 you will play until write \"stop\".\n"
                         "At any time you can type stop and the game will end.\n"
                         "Number of games:")
+
 if number_of_games.isdigit():
     if int(number_of_games) > 0:
         print(f"You chose {number_of_games} games! Good luck!")
@@ -28,6 +29,7 @@ if number_of_games.isdigit():
         raise SystemExit("Invalid Input. Try again...")
 else:
     raise SystemExit("Invalid Input. Try again...")
+
 while command:
 
     computer_move = ""
@@ -74,3 +76,11 @@ while command:
     print(f"Result: You = {player_victories} Computer = {computer_victories}")
     if played_games == int(number_of_games):
         command = False
+
+if player_victories > computer_victories:
+    print("==================YOU WIN THE GAME!===================")
+elif player_victories < computer_victories:
+    print("==================YOU LOST THE GAME!==================")
+else:
+    print("======================DRAW GAME!======================")
+
