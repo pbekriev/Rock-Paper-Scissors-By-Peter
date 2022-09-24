@@ -1,2 +1,2 @@
 # Rock-Paper-Scissors-By-Peter
-This is a simple console game "Rock Paper Scissors"
+My project for this simple console game "Rock, Paper, Scissors".
