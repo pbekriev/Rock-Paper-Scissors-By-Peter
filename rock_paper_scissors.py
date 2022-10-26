@@ -27,13 +27,13 @@ while True:  # Main Program
 
         if number_of_games.isdigit():
             break
-        else:
-            print(Fore.RED + "Invalid input. Try again...")
+        print(Fore.RED + "Invalid input. Try again...")
 
     if int(number_of_games) > 0:
         print(f"You chose {number_of_games} games! Good luck!")
     elif int(number_of_games) == 0:
-        print("You chose 0 and you will play until you write \"stop\". Good luck!")
+        print("You chose 0 and you will play until you write \"stop\".\n"
+              "Good luck!")
     else:
         print(Fore.RED + "Invalid input. Try again...")
         continue
